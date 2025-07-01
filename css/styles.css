@@ -1,0 +1,92 @@
+@import url(../fonts/inter_stylesheet.css);
+@import url(../fonts/lato_stylesheet.css);
+
+
+.navi{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    
+}
+
+:hover .navi{
+    font-family: 'Inter';
+    font-weight: 400;
+    color: white;
+}
+
+.caro{
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 100px;
+    left: 15%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.caros{
+    font-family: 'Lato';
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.location{
+    margin-top: -300px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.locationsub{
+    color: white;
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 600px;
+}
+
+.locationsub2{
+    color: white;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 600px;
+    margin-top: 50px;
+}
+
+.contactinfo{
+    color: white;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+:hover .contactinfo{
+    color: white;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.hr{
+    height: 5px;
+    color: white;
+    background-color: white;
+    margin-right: 780px;
+
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
